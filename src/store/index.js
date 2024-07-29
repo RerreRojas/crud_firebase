@@ -9,7 +9,7 @@ import {
 } from "firebase/firestore";
 import firebaseApp from "../firebaseConfig";
 
-export default createStore({
+const store = createStore({
   state: {
     newUser: {
       name: "",
@@ -69,3 +69,5 @@ export default createStore({
   },
   modules: {},
 });
+store.dispatch('fetchUsers');
+export default store

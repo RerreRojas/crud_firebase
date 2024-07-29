@@ -17,14 +17,14 @@
   import { mapState, mapActions } from 'vuex';
   
   export default {
-    name: 'NewUsers',
+    name: 'ListUsers',
     computed: {
       ...mapState(['users'])
     },
     methods: {
       ...mapActions(['deleteUser', 'fetchUsers'])
     },
-    mounted(){this.fetchUsers()}
+    //mounted(){this.fetchUsers()}
   }
   </script>
   

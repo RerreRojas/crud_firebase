@@ -1,18 +1,18 @@
 <template>
   <AddUsers/>
-  <NewUsers/>
+  <ListUsers/>
 
 </template>
 
 <script>
 import AddUsers from './components/AddUsers.vue';
-import NewUsers from './components/NewUsers.vue';
+import ListUsers from './components/ListUsers.vue';
 
 export default {
   name: 'App',
   components: {
     AddUsers,
-    NewUsers
+    ListUsers,
   }
 }
 </script>
