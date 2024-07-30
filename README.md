@@ -17,8 +17,8 @@ Contiene un formulario para agregar nuevos usuarios.
 Utiliza la directiva v-model de Vue para el enlace de datos bidireccional.
 Al enviar el formulario, se llama al método addUser.
 * Componente [ListUsers](https://github.com/RerreRojas/crud_firebase/blob/main/src/components/ListUsers.vue)
-** Muestra una lista de usuarios.
-** Cada usuario puede ser eliminado haciendo clic en el botón asociado.
+*   Muestra una lista de usuarios.
+*   Da usuario puede ser eliminado haciendo clic en el botón asociado.
 #### Configuración de Firebase
 Asegúrate de tener Firebase configurado correctamente en tu proyecto.
 Reemplaza la importación de firebaseApp con tu configuración de Firebase.
